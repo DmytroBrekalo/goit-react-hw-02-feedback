@@ -33,7 +33,7 @@ onBtnOptionClick = option => {
     render() {
         const { good, neutral, bad } = this.state;
         return (
-            <div className="feedback">
+            <div>
                 <Section title="Please leave feedback">
                     <FeedbackOptions
                         options={Object.keys(this.state)}
